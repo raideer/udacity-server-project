@@ -17,7 +17,7 @@ The goal of the project is to configure a linux server on Amazon Lightsail, upda
   * Download your key
   * Place it in `~/.ssh` directory
 
-* `ssh ubuntu@public_server_ip -i ~/.ssh/name_of_the_key.pem`
+* Connect to the server `ssh ubuntu@public_server_ip -i ~/.ssh/name_of_the_key.pem`
 * In my case: `ssh ubuntu@52.59.125.2 -i ~/.ssh/LightsailDefaultPrivateKey-eu-central-1.pem`
 ### Securing the server
 * Update all currently installed packages
