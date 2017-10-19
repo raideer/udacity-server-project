@@ -36,9 +36,9 @@ The goal of the project is to configure a linux server on Amazon Lightsail, upda
   * Enable UFW: `sudo ufw enable`
 
 ### Give *grader* access
-* Create a new user name grader `sudo adduser grader`
+* Create a new user named grader `sudo adduser grader`
 * Give grader permission to sudo
-  * Create sudoers file from grader: `sudo nano /etc/sudoers.d/grader`
+  * Create sudoers file for grader: `sudo nano /etc/sudoers.d/grader`
   * Add the following: `grader ALL=(ALL:ALL) ALL`
 * Create an SSH key pair for grader using the `ssh-keygen` tool
   * Create a keypair with `ssh-keygen`
